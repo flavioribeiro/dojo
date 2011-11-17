@@ -1,0 +1,23 @@
+Pontos Positivos
+===========
+pouca gente++++++ 
+metodologia funcionou
+dinamica
+problema facil+++
+linguagem++++++
+suspense
+problema didatico+++
+pessoas muito boas+++++++
+
+Pontos Negativos
+============
+pessoas falando quando nao devia+++
+pessoas que sairam
+falta de pizza
+
+
+Próximo
+=======
+Responsável: Bruno Souza
+Problema: Shannon Fano
+Linguagem: Ruby
