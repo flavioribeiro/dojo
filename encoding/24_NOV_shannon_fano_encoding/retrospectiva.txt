@@ -1,0 +1,27 @@
+bom:
+problema++++++
+linguagem+++
+pizza
+discussao+++++++++
+design evolutivo
+todos contribuiram
+codigo x complexidade
+
+ruim:
+planejamento+++
+codigo x complexidade
+pessoas entrando e saindo+++
+celulares tocando+++
+muita discussao+++
+foco+++
+barulho+++
+nao houve respeito+++
+atropelamento
+familiaridade+++
+
+proximo:
+- Terminar Shannon-Fano (decoder)
+- Mateus Del Bianco
+- Continuar em Ruby
+
+
