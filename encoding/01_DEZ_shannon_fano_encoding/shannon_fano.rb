@@ -1,11 +1,24 @@
+def decode(encoded)
+  header = encoded[:header]
+  body = encoded[:body]
+  decoded = ""
+  key = ""
+  body.each_char do |c|
+    key += c
+    if header.has_key? key
+      decoded += header[key]
+      key = ""
+    end
+  end
+  decoded
+end
+
 def encode(input)
   header =  normalize(make_tree(tokenize(input)))
-  body = ""
-  input.each_char do |i|
-    body += header[i]
-  end
 
-  {:header => header,
+  body = input.chars.inject("") {|body,i| body += header[i]}
+
+  {:header => header.invert,
    :body => body}
 end
 

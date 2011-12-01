@@ -30,14 +30,14 @@ describe "Shannon-Fano" do
 
 
   it "should return 0 for single symbol" do
-     encode("A").should == {:header => {"A" => "0"},
+     encode("A").should == {:header => {"0" => "A"},
                             :body => '0'}
   end
 
   it "should return 0 for any single symbol" do
-    encode("AAABBC").should == { :header => {"A" => "0",
-                                             "B" => "10",
-                                             "C" => "11"},
+    encode("AAABBC").should == { :header => {"0"  => "A",
+                                             "10" => "B",
+                                             "11" => "C"},
                                  :body => '000101011'}
   end
 end

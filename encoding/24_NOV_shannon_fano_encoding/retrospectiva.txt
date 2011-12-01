@@ -1,27 +1,20 @@
 bom:
-problema++++++
-linguagem+++
-pizza
-discussao+++++++++
-design evolutivo
-todos contribuiram
-codigo x complexidade
+pizza ++++++
+tempo adequado +++
+resolveu o problema ++++++
+problema foi bom +++
+qualidade do cohdigo (teclado do coalhada atrapalhado)
+mais organizado
+qualidade da galera +++
 
 ruim:
-planejamento+++
-codigo x complexidade
-pessoas entrando e saindo+++
-celulares tocando+++
-muita discussao+++
-foco+++
-barulho+++
-nao houve respeito+++
-atropelamento
-familiaridade+++
+gritaria
+scroll de coalhada
+faltou rake
 
 proximo:
-- Terminar Shannon-Fano (decoder)
-- Mateus Del Bianco
-- Continuar em Ruby
+Pacman
+Problema: Huffman
+Perl
 
 
