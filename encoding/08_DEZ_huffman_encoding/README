@@ -1,0 +1,21 @@
+
+my $text = "this is an example for huffman encoding";
+
+print "original: '$text'\n";
+
+my $tree = make_tree($text); 
+my $enc  = encode($text, $tree);
+my $dec  = decode($enc, $tree);
+
+print "encode:   '$enc'\n";
+print "decode:   '$dec'\n";
+
+__END__
+
+=pod
+
+deveria gerar este output
+original: 'this is an example for huffman encoding'
+encode:   '0010000111101100011111011000111101001111110111001010100100000100000110111111100010100011111001100101110011000100101001111110110111001100101100111110101100000'
+decode:   'this is an example for huffman encoding'
+
