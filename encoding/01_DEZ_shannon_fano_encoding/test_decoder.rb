@@ -1,5 +1,5 @@
 require 'rspec'
-require 'shannon_fano'
+require_relative 'shannon_fano'
 
 
 describe "Shannon-Fano" do
