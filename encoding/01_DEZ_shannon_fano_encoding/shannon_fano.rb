@@ -53,13 +53,13 @@ end
 
 def split_tokens(tokens)
   sum = tokens.inject(0) {|total, e| total + e[1]}
-  middle = sum / 2
+  middle = sum / 2.0
   left = []
   right = []
 
   i = 0
   tokens.each do |symbol, weight|
-    if i < middle
+    if i+(weight / 2.0) < middle
       left << [symbol, weight]
     else
       right << [symbol, weight]
