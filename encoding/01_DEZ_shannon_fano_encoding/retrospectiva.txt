@@ -1,0 +1,20 @@
+bom:
+pizza ++++++
+tempo adequado +++
+resolveu o problema ++++++
+problema foi bom +++
+qualidade do cohdigo (teclado do coalhada atrapalhado)
+mais organizado
+qualidade da galera +++
+
+ruim:
+gritaria
+scroll de coalhada
+faltou rake
+
+proximo:
+Pacman
+Problema: Huffman
+Perl
+
+
