@@ -46,7 +46,18 @@ describe "Shannon-Fano" do
     }
   end
 
-  it "should split tokens upon weight" do
+  it "should split tokens upon weights 1, 2, 3" do
+    tokens = [['A',1],['B',2],['C',3]]
+    make_tree(tokens).should == {
+      :left => {
+        :left => ['A','00'],
+        :right => ['B','01']
+      },
+      :right => ['C','1']
+    }
+  end
+
+  it "should split tokens upon weights 3, 2, 1" do
     tokens = [['A',3],['B',2],['C',1]]
     make_tree(tokens).should == {
       :left => ['A','0'],
@@ -54,6 +65,28 @@ describe "Shannon-Fano" do
         :left => ['B','10'],
         :right => ['C','11']
       }
+    }
+  end
+
+  it "should split tokens upon weights 10, 10, 2" do
+    tokens = [['A',10],['B',10],['C',2]]
+    make_tree(tokens).should == {
+      :left => ['A','0'],
+      :right => {
+        :left => ['B','10'],
+        :right => ['C','11']
+      }
+    }
+  end
+
+  it "should split tokens upon weights 2, 10, 10" do
+    tokens = [['A',2],['B',10],['C',10]]
+    make_tree(tokens).should == {
+      :left => {
+        :left => ['A','00'],
+        :right => ['B','01']
+      },
+      :right => ['C','1']
     }
   end
 
